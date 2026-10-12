@@ -6,3 +6,11 @@ class Tache {
   nombreTotal++;
   }
 }
+
+void main() {
+  Tache('Faire les devoirs');
+  Tache('Etudier Dart');
+  Tache('Faire les exercices');
+
+  print(Tache.nombreTotal);
+}
