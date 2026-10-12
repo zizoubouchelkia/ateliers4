@@ -15,3 +15,9 @@ class Compte {
   }
 
 }
+
+void main() {
+  var compte = Compte('12345');
+  compte.depot(150.0);
+  print(compte.solde);
+}
